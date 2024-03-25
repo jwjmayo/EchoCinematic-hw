@@ -1,0 +1,495 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Amplifier_Operational:TL074 U7
+U 1 1 6041FDE8
+P 4500 4400
+F 0 "U7" H 4600 4550 50  0000 C CNN
+F 1 "TL074" H 4450 4400 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 4450 4500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 4550 4600 50  0001 C CNN
+	1    4500 4400
+	1    0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:TL074 U7
+U 2 1 6041FDF2
+P 4500 2350
+F 0 "U7" H 4600 2500 50  0000 C CNN
+F 1 "TL074" H 4450 2350 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 4450 2450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 4550 2550 50  0001 C CNN
+	2    4500 2350
+	1    0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:TL074 U7
+U 3 1 6041FDFC
+P 5750 2450
+F 0 "U7" H 5900 2600 50  0000 C CNN
+F 1 "TL074" H 5700 2450 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 5700 2550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 5800 2650 50  0001 C CNN
+	3    5750 2450
+	1    0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:TL074 U7
+U 4 1 6041FE06
+P 5750 4500
+F 0 "U7" H 5850 4650 50  0000 C CNN
+F 1 "TL074" H 5700 4500 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 5700 4600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 5800 4700 50  0001 C CNN
+	4    5750 4500
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R35
+U 1 1 6041FE10
+P 3900 2250
+F 0 "R35" V 3704 2250 50  0000 C CNN
+F 1 "10k" V 3795 2250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3900 2250 50  0001 C CNN
+F 3 "~" H 3900 2250 50  0001 C CNN
+	1    3900 2250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4000 2250 4150 2250
+$Comp
+L Device:R_Small R31
+U 1 1 6041FE1B
+P 4650 2050
+F 0 "R31" V 4454 2050 50  0000 C CNN
+F 1 "100k" V 4545 2050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4650 2050 50  0001 C CNN
+F 3 "~" H 4650 2050 50  0001 C CNN
+	1    4650 2050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4550 2050 4150 2050
+Connection ~ 4150 2250
+Wire Wire Line
+	4150 2250 4200 2250
+Wire Wire Line
+	4750 2050 4850 2050
+Wire Wire Line
+	4850 2350 4800 2350
+$Comp
+L Device:C_Small C17
+U 1 1 6041FE2A
+P 4350 1750
+F 0 "C17" V 4121 1750 50  0000 C CNN
+F 1 "47pF" V 4212 1750 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4350 1750 50  0001 C CNN
+F 3 "~" H 4350 1750 50  0001 C CNN
+	1    4350 1750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4450 1750 4850 1750
+Wire Wire Line
+	4250 1750 4150 1750
+$Comp
+L Device:R_Small R37
+U 1 1 6041FE36
+P 5050 2350
+F 0 "R37" V 4854 2350 50  0000 C CNN
+F 1 "100k" V 4945 2350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5050 2350 50  0001 C CNN
+F 3 "~" H 5050 2350 50  0001 C CNN
+	1    5050 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4950 2350 4850 2350
+Connection ~ 4850 2350
+Wire Wire Line
+	5450 2350 5400 2350
+$Comp
+L Device:R_Small R33
+U 1 1 6041FE43
+P 5900 2150
+F 0 "R33" V 5704 2150 50  0000 C CNN
+F 1 "100k" V 5795 2150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5900 2150 50  0001 C CNN
+F 3 "~" H 5900 2150 50  0001 C CNN
+	1    5900 2150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5800 2150 5400 2150
+Wire Wire Line
+	6000 2150 6100 2150
+$Comp
+L Device:C_Small C19
+U 1 1 6041FE4F
+P 5600 1850
+F 0 "C19" V 5371 1850 50  0000 C CNN
+F 1 "47pF" V 5462 1850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5600 1850 50  0001 C CNN
+F 3 "~" H 5600 1850 50  0001 C CNN
+	1    5600 1850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5700 1850 6100 1850
+Wire Wire Line
+	5500 1850 5400 1850
+Connection ~ 5400 2350
+Wire Wire Line
+	5400 2350 5150 2350
+Wire Wire Line
+	6100 2450 6050 2450
+$Comp
+L power:GNDA #PWR051
+U 1 1 6041FE5E
+P 4150 2800
+F 0 "#PWR051" H 4150 2550 50  0001 C CNN
+F 1 "GNDA" H 4155 2627 50  0000 C CNN
+F 2 "" H 4150 2800 50  0001 C CNN
+F 3 "" H 4150 2800 50  0001 C CNN
+	1    4150 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 2800 4150 2450
+Wire Wire Line
+	4150 2450 4200 2450
+$Comp
+L power:GNDA #PWR052
+U 1 1 6041FE6A
+P 5400 2800
+F 0 "#PWR052" H 5400 2550 50  0001 C CNN
+F 1 "GNDA" H 5405 2627 50  0000 C CNN
+F 2 "" H 5400 2800 50  0001 C CNN
+F 3 "" H 5400 2800 50  0001 C CNN
+	1    5400 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 2550 5400 2550
+Wire Wire Line
+	5400 2550 5400 2800
+$Comp
+L Device:R_Small R39
+U 1 1 6041FE76
+P 6300 2450
+F 0 "R39" V 6104 2450 50  0000 C CNN
+F 1 "1k" V 6195 2450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6300 2450 50  0001 C CNN
+F 3 "~" H 6300 2450 50  0001 C CNN
+	1    6300 2450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6200 2450 6100 2450
+Connection ~ 6100 2450
+Wire Wire Line
+	6500 2450 6400 2450
+Wire Wire Line
+	3800 2250 3700 2250
+Wire Wire Line
+	4150 1750 4150 2050
+Wire Wire Line
+	4850 1750 4850 2050
+Connection ~ 4150 2050
+Wire Wire Line
+	4150 2050 4150 2250
+Connection ~ 4850 2050
+Wire Wire Line
+	4850 2050 4850 2350
+Connection ~ 5400 2150
+Wire Wire Line
+	5400 2150 5400 2350
+Connection ~ 6100 2150
+Wire Wire Line
+	6100 2150 6100 2450
+Wire Wire Line
+	5400 1850 5400 2150
+Wire Wire Line
+	6100 1850 6100 2150
+$Comp
+L Device:R_Small R45
+U 1 1 6041FE92
+P 3900 4300
+F 0 "R45" V 3704 4300 50  0000 C CNN
+F 1 "10k" V 3795 4300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3900 4300 50  0001 C CNN
+F 3 "~" H 3900 4300 50  0001 C CNN
+	1    3900 4300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4000 4300 4150 4300
+$Comp
+L Device:R_Small R41
+U 1 1 6041FE9D
+P 4650 4100
+F 0 "R41" V 4454 4100 50  0000 C CNN
+F 1 "100k" V 4545 4100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4650 4100 50  0001 C CNN
+F 3 "~" H 4650 4100 50  0001 C CNN
+	1    4650 4100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4550 4100 4150 4100
+Connection ~ 4150 4300
+Wire Wire Line
+	4150 4300 4200 4300
+Wire Wire Line
+	4750 4100 4850 4100
+Wire Wire Line
+	4850 4400 4800 4400
+$Comp
+L Device:C_Small C21
+U 1 1 6041FEAC
+P 4350 3800
+F 0 "C21" V 4121 3800 50  0000 C CNN
+F 1 "47pF" V 4212 3800 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4350 3800 50  0001 C CNN
+F 3 "~" H 4350 3800 50  0001 C CNN
+	1    4350 3800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4450 3800 4850 3800
+Wire Wire Line
+	4250 3800 4150 3800
+$Comp
+L Device:R_Small R47
+U 1 1 6041FEB8
+P 5050 4400
+F 0 "R47" V 4854 4400 50  0000 C CNN
+F 1 "100k" V 4945 4400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5050 4400 50  0001 C CNN
+F 3 "~" H 5050 4400 50  0001 C CNN
+	1    5050 4400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4950 4400 4850 4400
+Connection ~ 4850 4400
+Wire Wire Line
+	5450 4400 5400 4400
+$Comp
+L Device:R_Small R43
+U 1 1 6041FEC5
+P 5900 4200
+F 0 "R43" V 5704 4200 50  0000 C CNN
+F 1 "100k" V 5795 4200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5900 4200 50  0001 C CNN
+F 3 "~" H 5900 4200 50  0001 C CNN
+	1    5900 4200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5800 4200 5400 4200
+Wire Wire Line
+	6000 4200 6100 4200
+$Comp
+L Device:C_Small C23
+U 1 1 6041FED1
+P 5600 3900
+F 0 "C23" V 5371 3900 50  0000 C CNN
+F 1 "47pF" V 5462 3900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5600 3900 50  0001 C CNN
+F 3 "~" H 5600 3900 50  0001 C CNN
+	1    5600 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5700 3900 6100 3900
+Wire Wire Line
+	5500 3900 5400 3900
+Connection ~ 5400 4400
+Wire Wire Line
+	5400 4400 5150 4400
+Wire Wire Line
+	6100 4500 6050 4500
+$Comp
+L power:GNDA #PWR055
+U 1 1 6041FEE0
+P 4150 4850
+F 0 "#PWR055" H 4150 4600 50  0001 C CNN
+F 1 "GNDA" H 4155 4677 50  0000 C CNN
+F 2 "" H 4150 4850 50  0001 C CNN
+F 3 "" H 4150 4850 50  0001 C CNN
+	1    4150 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 4850 4150 4500
+Wire Wire Line
+	4150 4500 4200 4500
+$Comp
+L power:GNDA #PWR056
+U 1 1 6041FEEC
+P 5400 4850
+F 0 "#PWR056" H 5400 4600 50  0001 C CNN
+F 1 "GNDA" H 5405 4677 50  0000 C CNN
+F 2 "" H 5400 4850 50  0001 C CNN
+F 3 "" H 5400 4850 50  0001 C CNN
+	1    5400 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 4600 5400 4600
+Wire Wire Line
+	5400 4600 5400 4850
+$Comp
+L Device:R_Small R49
+U 1 1 6041FEF8
+P 6300 4500
+F 0 "R49" V 6104 4500 50  0000 C CNN
+F 1 "1k" V 6195 4500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6300 4500 50  0001 C CNN
+F 3 "~" H 6300 4500 50  0001 C CNN
+	1    6300 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6200 4500 6100 4500
+Connection ~ 6100 4500
+Wire Wire Line
+	6500 4500 6400 4500
+Wire Wire Line
+	3800 4300 3700 4300
+Wire Wire Line
+	4150 3800 4150 4100
+Wire Wire Line
+	4850 3800 4850 4100
+Connection ~ 4150 4100
+Wire Wire Line
+	4150 4100 4150 4300
+Connection ~ 4850 4100
+Wire Wire Line
+	4850 4100 4850 4400
+Connection ~ 5400 4200
+Wire Wire Line
+	5400 4200 5400 4400
+Connection ~ 6100 4200
+Wire Wire Line
+	6100 4200 6100 4500
+Wire Wire Line
+	5400 3900 5400 4200
+Wire Wire Line
+	6100 3900 6100 4200
+Text HLabel 3700 2250 0    50   Input ~ 0
+INT_AUDIO_OUT_L
+Text HLabel 3700 4300 0    50   Input ~ 0
+INT_AUDIO_OUT_R
+Text HLabel 6500 2450 2    50   Output ~ 0
+AUDIO_OUT_L
+Text HLabel 6500 4500 2    50   Output ~ 0
+AUDIO_OUT_R
+$Comp
+L Amplifier_Operational:TL074 U7
+U 5 1 60CFBE5C
+P 5150 6750
+F 0 "U7" H 5108 6796 50  0000 L CNN
+F 1 "TL074" H 5108 6705 50  0000 L CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 5100 6850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 5200 6950 50  0001 C CNN
+	5    5150 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR0105
+U 1 1 60CFBE66
+P 5850 7150
+F 0 "#PWR0105" H 5850 6900 50  0001 C CNN
+F 1 "GNDA" H 5855 6977 50  0000 C CNN
+F 2 "" H 5850 7150 50  0001 C CNN
+F 3 "" H 5850 7150 50  0001 C CNN
+	1    5850 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C18
+U 1 1 60CFBE70
+P 5450 6950
+F 0 "C18" H 5358 6904 50  0000 R CNN
+F 1 "100nF" H 5358 6995 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5450 6950 50  0001 C CNN
+F 3 "~" H 5450 6950 50  0001 C CNN
+	1    5450 6950
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+12VA #PWR0106
+U 1 1 60CFBE7A
+P 5050 6350
+F 0 "#PWR0106" H 5050 6200 50  0001 C CNN
+F 1 "+12VA" H 5065 6523 50  0000 C CNN
+F 2 "" H 5050 6350 50  0001 C CNN
+F 3 "" H 5050 6350 50  0001 C CNN
+	1    5050 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C16
+U 1 1 60CFBE84
+P 5450 6550
+F 0 "C16" H 5358 6504 50  0000 R CNN
+F 1 "100nF" H 5358 6595 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5450 6550 50  0001 C CNN
+F 3 "~" H 5450 6550 50  0001 C CNN
+	1    5450 6550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5050 6350 5050 6400
+Wire Wire Line
+	5050 6400 5450 6400
+Wire Wire Line
+	5450 6400 5450 6450
+Connection ~ 5050 6400
+Wire Wire Line
+	5050 6400 5050 6450
+Wire Wire Line
+	5050 7050 5050 7100
+Wire Wire Line
+	5050 7100 5450 7100
+Wire Wire Line
+	5450 7100 5450 7050
+Connection ~ 5050 7100
+Wire Wire Line
+	5050 7100 5050 7150
+Wire Wire Line
+	5450 6650 5450 6750
+Wire Wire Line
+	5850 7150 5850 6750
+Wire Wire Line
+	5850 6750 5450 6750
+Connection ~ 5450 6750
+Wire Wire Line
+	5450 6750 5450 6850
+$Comp
+L power:-12VA #PWR0107
+U 1 1 60CFBE9D
+P 5050 7150
+F 0 "#PWR0107" H 5050 7000 50  0001 C CNN
+F 1 "-12VA" H 5065 7323 50  0000 C CNN
+F 2 "" H 5050 7150 50  0001 C CNN
+F 3 "" H 5050 7150 50  0001 C CNN
+	1    5050 7150
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC

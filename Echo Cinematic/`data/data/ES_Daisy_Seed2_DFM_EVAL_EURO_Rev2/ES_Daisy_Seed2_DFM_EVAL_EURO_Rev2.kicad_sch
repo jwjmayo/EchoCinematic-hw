@@ -1,0 +1,99 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid aecd94cd-577d-4dc2-a657-becad076cd54)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 127 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 1b36b0fa-082e-4645-8b73-752e7ef29fe5)
+    (property "Sheetname" "ES_Daisy_Seed2_DFM_EVAL_EURO_Rev2_3" (at 127 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "ES_Daisy_Seed2_DFM_EVAL_EURO_Rev2_3.kicad_sch" (at 127 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ES_Daisy_Seed2_DFM_EVAL_EURO_Rev2"
+        (path "/aecd94cd-577d-4dc2-a657-becad076cd54" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 228.6 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 4c921983-19e2-41e9-a4fa-b12710a81e80)
+    (property "Sheetname" "ES_Daisy_Seed2_DFM_EVAL_EURO_Rev2_5" (at 228.6 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "ES_Daisy_Seed2_DFM_EVAL_EURO_Rev2_5.kicad_sch" (at 228.6 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ES_Daisy_Seed2_DFM_EVAL_EURO_Rev2"
+        (path "/aecd94cd-577d-4dc2-a657-becad076cd54" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 76.2 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid b9dc8c25-2ea4-45b1-99b0-eea725ad204f)
+    (property "Sheetname" "ES_Daisy_Seed2_DFM_EVAL_EURO_Rev2_2" (at 76.2 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "ES_Daisy_Seed2_DFM_EVAL_EURO_Rev2_2.kicad_sch" (at 76.2 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ES_Daisy_Seed2_DFM_EVAL_EURO_Rev2"
+        (path "/aecd94cd-577d-4dc2-a657-becad076cd54" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 177.8 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid c8299556-a583-477a-8d20-ee7a3cef1884)
+    (property "Sheetname" "ES_Daisy_Seed2_DFM_EVAL_EURO_Rev2_4" (at 177.8 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "ES_Daisy_Seed2_DFM_EVAL_EURO_Rev2_4.kicad_sch" (at 177.8 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ES_Daisy_Seed2_DFM_EVAL_EURO_Rev2"
+        (path "/aecd94cd-577d-4dc2-a657-becad076cd54" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 25.4 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid f8247dcd-cc22-4777-93bc-81de2c22ba40)
+    (property "Sheetname" "ES_Daisy_Seed2_DFM_EVAL_EURO_Rev2_1" (at 25.4 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "ES_Daisy_Seed2_DFM_EVAL_EURO_Rev2_1.kicad_sch" (at 25.4 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ES_Daisy_Seed2_DFM_EVAL_EURO_Rev2"
+        (path "/aecd94cd-577d-4dc2-a657-becad076cd54" (page "1"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

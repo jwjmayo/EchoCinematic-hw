@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ES_DAISY_SEED2_DFMkicad_sym")(type "KiCad")(uri "${KIPRJMOD}/Libraries/ES_DAISY_SEED2_DFMkicad_sym.kicad_sym")(options "")(descr ""))
+)

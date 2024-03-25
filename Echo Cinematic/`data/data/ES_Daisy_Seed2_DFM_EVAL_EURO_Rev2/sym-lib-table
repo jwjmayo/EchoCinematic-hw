@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ES_Daisy_Seed2_DFM_EVAL_EURO_Rev2-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/ES_Daisy_Seed2_DFM_EVAL_EURO_Rev2-eagle-import.kicad_sym")(options "")(descr ""))
+  (lib (name "ES_DAISY_SEED2_DFMkicad_sym")(type "KiCad")(uri "C:/Users/Supul Sapukotana/Desktop/Dropbox/Fiverr/Clients/jasonmayo898/Poly Cinematic MkII/Libraries/ES_DAISY_SEED2_DFMkicad_sym.kicad_sym")(options "")(descr ""))
+)

@@ -1,0 +1,244 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Micro_SD_Card_Det J21
+U 1 1 6073D74A
+P 5600 3900
+F 0 "J21" H 5550 4717 50  0000 C CNN
+F 1 "Micro_SD_Card_Det" H 5550 4626 50  0000 C CNN
+F 2 "" H 7650 4600 50  0001 C CNN
+F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1" H 5600 4000 50  0001 C CNN
+	1    5600 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0186
+U 1 1 6073D750
+P 6500 4600
+F 0 "#PWR0186" H 6500 4350 50  0001 C CNN
+F 1 "GND" H 6505 4427 50  0001 C CNN
+F 2 "" H 6500 4600 50  0001 C CNN
+F 3 "" H 6500 4600 50  0001 C CNN
+	1    6500 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0187
+U 1 1 6073D756
+P 4350 4600
+F 0 "#PWR0187" H 4350 4350 50  0001 C CNN
+F 1 "GND" H 4355 4427 50  0001 C CNN
+F 2 "" H 4350 4600 50  0001 C CNN
+F 3 "" H 4350 4600 50  0001 C CNN
+	1    4350 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 4400 6500 4400
+Wire Wire Line
+	6500 4400 6500 4600
+Wire Wire Line
+	4700 4000 4350 4000
+Wire Wire Line
+	4350 4000 4350 4600
+$Comp
+L power:+3.3V #PWR0188
+U 1 1 6073D760
+P 4350 2850
+F 0 "#PWR0188" H 4350 2700 50  0001 C CNN
+F 1 "+3.3V" H 4365 3023 50  0000 C CNN
+F 2 "" H 4350 2850 50  0001 C CNN
+F 3 "" H 4350 2850 50  0001 C CNN
+	1    4350 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C48
+U 1 1 6073D766
+P 4650 3100
+F 0 "C48" H 4742 3146 50  0000 L CNN
+F 1 "10uF" H 4742 3055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4650 3100 50  0001 C CNN
+F 3 "~" H 4650 3100 50  0001 C CNN
+	1    4650 3100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0189
+U 1 1 6073D76C
+P 4650 3250
+F 0 "#PWR0189" H 4650 3000 50  0001 C CNN
+F 1 "GND" H 4655 3077 50  0001 C CNN
+F 2 "" H 4650 3250 50  0001 C CNN
+F 3 "" H 4650 3250 50  0001 C CNN
+	1    4650 3250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 3800 4350 3800
+Wire Wire Line
+	4650 3000 4650 2900
+Wire Wire Line
+	4650 2900 4350 2900
+Wire Wire Line
+	4650 3200 4650 3250
+Wire Wire Line
+	4350 2850 4350 2900
+Connection ~ 4350 2900
+Wire Wire Line
+	4350 2900 4350 3800
+Text Label 2800 3500 0    50   ~ 0
+SD_D2
+Text Label 2800 3600 0    50   ~ 0
+SD_D3
+Text Label 2800 3700 0    50   ~ 0
+SD_CMD
+Text Label 2800 3900 0    50   ~ 0
+SD_CK
+Text Label 2800 4100 0    50   ~ 0
+SD_D0
+Text Label 2800 4200 0    50   ~ 0
+SD_D1
+Wire Wire Line
+	2800 3900 4700 3900
+NoConn ~ 4700 4300
+NoConn ~ 4700 4400
+Connection ~ 3100 3500
+Wire Wire Line
+	3100 3500 2800 3500
+Connection ~ 3350 3600
+Wire Wire Line
+	2800 3600 3350 3600
+Connection ~ 3600 3700
+Wire Wire Line
+	3600 3700 2800 3700
+Connection ~ 3850 4100
+Wire Wire Line
+	2800 4100 3850 4100
+Connection ~ 4100 4200
+Wire Wire Line
+	4100 4200 2800 4200
+Wire Wire Line
+	4700 4200 4100 4200
+Wire Wire Line
+	4700 4100 3850 4100
+Wire Wire Line
+	4700 3700 3600 3700
+Wire Wire Line
+	4700 3600 3350 3600
+Wire Wire Line
+	4700 3500 3100 3500
+Wire Wire Line
+	3350 2900 3600 2900
+Connection ~ 3350 2900
+Wire Wire Line
+	3350 3000 3350 2900
+Wire Wire Line
+	3600 2900 3850 2900
+Connection ~ 3600 2900
+Wire Wire Line
+	3600 3000 3600 2900
+Wire Wire Line
+	3850 2900 4100 2900
+Connection ~ 3850 2900
+Wire Wire Line
+	3850 3000 3850 2900
+Wire Wire Line
+	3100 2900 3100 3000
+Connection ~ 3100 2900
+Wire Wire Line
+	4100 2900 4100 3000
+Wire Wire Line
+	3100 2900 3350 2900
+Wire Wire Line
+	3100 2850 3100 2900
+$Comp
+L power:+3.3V #PWR0190
+U 1 1 6073D79F
+P 3100 2850
+F 0 "#PWR0190" H 3100 2700 50  0001 C CNN
+F 1 "+3.3V" H 3115 3023 50  0000 C CNN
+F 2 "" H 3100 2850 50  0001 C CNN
+F 3 "" H 3100 2850 50  0001 C CNN
+	1    3100 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 4200 4100 3200
+Wire Wire Line
+	3850 4100 3850 3200
+Wire Wire Line
+	3600 3700 3600 3200
+Wire Wire Line
+	3350 3600 3350 3200
+Wire Wire Line
+	3100 3500 3100 3200
+$Comp
+L Device:R_Small R95
+U 1 1 6073D7AA
+P 3100 3100
+F 0 "R95" H 3159 3146 50  0000 L CNN
+F 1 "47k" H 3159 3055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3100 3100 50  0001 C CNN
+F 3 "~" H 3100 3100 50  0001 C CNN
+	1    3100 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R96
+U 1 1 6073D7B0
+P 3350 3100
+F 0 "R96" H 3409 3146 50  0000 L CNN
+F 1 "47k" H 3409 3055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3350 3100 50  0001 C CNN
+F 3 "~" H 3350 3100 50  0001 C CNN
+	1    3350 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R97
+U 1 1 6073D7B6
+P 3600 3100
+F 0 "R97" H 3659 3146 50  0000 L CNN
+F 1 "47k" H 3659 3055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3600 3100 50  0001 C CNN
+F 3 "~" H 3600 3100 50  0001 C CNN
+	1    3600 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R98
+U 1 1 6073D7BC
+P 3850 3100
+F 0 "R98" H 3909 3146 50  0000 L CNN
+F 1 "47k" H 3909 3055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3850 3100 50  0001 C CNN
+F 3 "~" H 3850 3100 50  0001 C CNN
+	1    3850 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R99
+U 1 1 6073D7C2
+P 4100 3100
+F 0 "R99" H 4159 3146 50  0000 L CNN
+F 1 "47k" H 4159 3055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4100 3100 50  0001 C CNN
+F 3 "~" H 4100 3100 50  0001 C CNN
+	1    4100 3100
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
